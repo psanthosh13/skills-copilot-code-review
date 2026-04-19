@@ -7,7 +7,7 @@
 ## Code Quality
 
 - Use consistent naming conventions.
-- Try to reduce code duplication.
+- Try to reduce code duplication and repetition.
 - Prefer maintainability and readability over optimization.
 - If a method is used a lot, try to optimize it for performance.
 - Prefer explicit error handling over silent failures.
