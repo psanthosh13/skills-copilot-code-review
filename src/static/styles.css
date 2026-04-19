@@ -30,11 +30,15 @@
   --error-light: #ffebee;
   --info: #0c5460;
   --info-light: #d1ecf1;
+
+  /* Announcement banner colors */
+  --announcement-banner-background: #132e14;
+  --announcement-banner-text: #ffffff;
 }
 
 .announcement-banner {
-  background-color: #132e14;
-  color: white;
+  background-color: var(--announcement-banner-background);
+  color: var(--announcement-banner-text);
   text-align: center;
   padding: 15px;
   font-weight: bold;
